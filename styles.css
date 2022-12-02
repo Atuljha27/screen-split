@@ -1,0 +1,76 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+.heading1,
+.heading2 {
+  text-align: center;
+  background-color: azure;
+}
+
+.logo {
+  padding-left: 0cm;
+  letter-spacing: 2rem;
+}
+
+.user-pic {
+  padding-left: 0.5%;
+}
+
+.picture {
+  height: 40%;
+  width: 100%;
+}
+p {
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-weight: bold;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: lightgreen;
+  padding-left: 2mm;
+}
+
+.right {
+  right: 0;
+  background-color: lightgreen;
+  padding-left: 2mm;
+}
+
+.btn-one {
+  border: none;
+  color: rgba(69, 4, 248, 0.877);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn-two {
+  border: none;
+  color: rgba(248, 73, 4, 0.877);
+  padding: 15px 32px;
+  text-align: end;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn-last {
+  background-color: rgb(247, 119, 0);
+}
